@@ -6,14 +6,16 @@ public class Parallelogram {
         return length*2+width*2;
     }
     int calculatePerimeter(int sideLength) {
-       return sideLength*6;
+        int width=3;
+       return sideLength*2+width*2;
     }
 
     double calculateArea(int length, double width) {
-      return length*3+width*3 ;
+      return length*width ;
     }
     int calculateArea(int sideLength) {
-        return sideLength*sideLength;
+        int width=3;
+        return sideLength*width;
     }
 
 
